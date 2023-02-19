@@ -1,6 +1,7 @@
 use reqwest::header;
 use header::HeaderMap;
 use reqwest::Client;
+
 struct ClientInterface {
     key: String,
     url: String,
